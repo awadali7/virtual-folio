@@ -1,0 +1,1970 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+del {
+  text-decoration: line-through;
+}
+ol,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-size: 17px;
+  color: #253858;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+input,
+textarea,
+select {
+  font-weight: 500;
+}
+a {
+  color: #253858;
+}
+a:hover,
+.submit:hover {
+  filter: alpha(opacity = 85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "GT-Eesti", Arial;
+  font-weight: 500;
+  color: #42526e;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.blur {
+  background-color: rgba(62, 57, 57, 0.8);
+}
+#home {
+  background-image: url(../images/bg_image_1.jpg);
+  background-size: cover;
+  position: relative;
+}
+#home header {
+  width: 100%;
+  height: 70px;
+  background-color: #5e5c5c;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 2.5%;
+  position: fixed;
+  z-index: 3;
+}
+#home header section.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#home header div.left {
+  width: 25%;
+}
+#home header div.left h1 {
+  width: 100%;
+}
+#home header div.left h1 a {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fafafa;
+}
+#home header nav {
+  width: 50%;
+}
+#home header nav ul {
+  display: flex;
+  justify-content: center;
+}
+#home header nav ul li {
+  margin-right: 35px;
+}
+#home header nav ul li a {
+  color: #afaeae;
+  font-size: 20px;
+}
+#home header nav ul li a:hover {
+  color: #fafafa;
+  font-weight: 600;
+}
+#home header div.right {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+#home header div.right a {
+  display: inline-block;
+}
+#home header div.right a.button {
+  border-radius: 50%;
+  background-color: #2a60f6;
+  padding: 20px 20px;
+}
+#home section.spotlight {
+  padding: 25% 0;
+}
+#home section.spotlight div.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fafafa;
+}
+#home section.spotlight div.container h3 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+#home section.spotlight div.container h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+#home section.spotlight div.container h1 span {
+  display: inline-block;
+  color: #2a60f6;
+}
+#home section.spotlight div.container small {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #363d56;
+  font-weight: 600;
+  font-size: 22px;
+  border-radius: 30px;
+  color: #2a60f6;
+}
+#about {
+  padding: 1% 0;
+}
+#about section.wrapper {
+}
+#about section.wrapper section.intro {
+  padding: 8% 0;
+  display: flex;
+  justify-content: space-between;
+}
+#about section.wrapper section.intro div.left {
+  width: 35%;
+}
+#about section.wrapper section.intro div.left div.img-container {
+  display: block;
+  width: 70%;
+  position: relative;
+}
+#about section.wrapper section.intro div.left div.img-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: 4px solid #2a60f6;
+  position: absolute;
+  top: -5%;
+  z-index: -1;
+  left: 8%;
+}
+#about section.wrapper section.intro div.left div.img-container img {
+  width: 100%;
+  display: block;
+}
+#about section.wrapper section.intro div.right {
+  width: 60%;
+}
+#about section.wrapper section.intro div.right h3 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+#about section.wrapper section.intro div.right span {
+  display: inline-block;
+  color: #2a60f6;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+#about section.wrapper section.intro div.right p {
+  font-size: 20px;
+  color: #777f87;
+  font-weight: 100;
+  line-height: 1.3em;
+  margin-bottom: 15px;
+}
+#about section.wrapper section.intro div.right ul {
+  margin-bottom: 25px;
+}
+#about section.wrapper section.intro div.right ul li {
+  margin-bottom: 7px;
+  position: relative;
+  font-weight: 300;
+}
+#about section.wrapper section.intro div.right ul li:last-child {
+  margin-bottom: 0;
+}
+#about section.wrapper section.intro div.right ul li::before {
+  content: "";
+  width: 8px;
+  height: 9px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #2a60f6;
+  margin-right: 5px;
+}
+#about section.wrapper section.intro div.right ul li::after {
+  content: "";
+  padding: 8px 0;
+  border-left: 2px solid #d7d9e0;
+  position: absolute;
+  left: 5px;
+  top: 82%;
+  z-index: -1;
+}
+#about section.wrapper section.intro div.right ul li:last-child::after {
+  padding: 0;
+}
+#about section.wrapper section.intro div.right ul li b {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+#about section.wrapper section.intro div.right button {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #2a60f6;
+  border: 2px solid #2a60f6;
+}
+#about section.wrapper section.skills {
+  padding: 5% 0;
+}
+#about section.wrapper section.skills div.top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#about section.wrapper section.skills div.top h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+#about section.wrapper section.skills div.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+#about section.wrapper section.skills div.bottom div.left {
+  width: 48%;
+}
+#about section.wrapper section.skills div.bottom div.left h4 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+#about section.wrapper section.skills div.bottom div.left ul {
+}
+#about section.wrapper section.skills div.bottom div.left ul li {
+  margin-bottom: 15px;
+}
+#about section.wrapper section.skills div.bottom div.left ul li:last-child {
+  margin-bottom: 0;
+}
+#about section.wrapper section.skills div.bottom div.left ul li h5 {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  font-weight: 400;
+}
+#about section.wrapper section.skills div.bottom div.left
+  ul
+  li div.precenteage-box {
+  width: 98%;
+  height: 25px;
+  border: 2px solid #2a60f6;
+  border-radius: 30px;
+  position: relative;
+}
+#about section.wrapper section.skills div.bottom div.left
+  ul
+  li div.precenteage-box::after {
+  content: "86%";
+  height: 82%;
+  width: 80%;
+  border-radius: 30px;
+  background-color: #2a60f6;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fafafa;
+}
+#about section.wrapper section.skills div.bottom div.left ul li div.precenteage-box.one::after {
+  content: "84%";
+  width: 81%;
+}
+#about section.wrapper section.skills div.bottom div.left ul li div.precenteage-box.two::after {
+  content: "92%";
+  width: 89%;
+}
+#about section.wrapper section.skills div.bottom div.left ul li div.precenteage-box.three::after {
+  content: "77%";
+  width: 75%;
+}
+#about section.wrapper section.skills div.bottom div.left ul li div.precenteage-box.four::after {
+  content: "89%";
+  width: 86%;
+}
+#about section.wrapper section.skills div.bottom div.right {
+  width: 48%;
+}
+#about section.wrapper section.skills div.bottom div.right h4 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+#about section.wrapper section.skills div.bottom div.right ul {
+}
+#about section.wrapper section.skills div.bottom div.right ul li {
+  margin-bottom: 15px;
+}
+#about section.wrapper section.skills div.bottom div.right ul li:last-child {
+  margin-bottom: 0;
+}
+#about section.wrapper section.skills div.bottom div.right ul li h5 {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  font-weight: 400;
+}
+#about section.wrapper section.skills div.bottom div.right ul
+  li div.precenteage-box {
+  width: 98%;
+  height: 25px;
+  border: 2px solid #2a60f6;
+  border-radius: 30px;
+  position: relative;
+}
+#about section.wrapper section.skills div.bottom div.right ul
+  li div.precenteage-box::after {
+  content: "86%";
+  height: 82%;
+  width: 80%;
+  border-radius: 30px;
+  background-color: #2a60f6;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fafafa;
+}
+#about section.wrapper section.skills div.bottom div.right ul li div.precenteage-box.one::after {
+  content: "69%";
+  width: 67%;
+}
+#about section.wrapper section.skills div.bottom div.right ul li div.precenteage-box.two::after {
+  content: "95%";
+  width: 93%;
+}
+#about section.wrapper section.skills div.bottom div.right ul li div.precenteage-box.three::after {
+  content: "85%";
+  width: 83%;
+}
+#about section.wrapper section.skills div.bottom div.right ul li div.precenteage-box.four::after {
+  content: "71%";
+  width: 68%;
+}
+#about section.wrapper section.edu-exp {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+#about section.wrapper section.edu-exp div.left {
+  width: 48%;
+}
+#about section.wrapper section.edu-exp div.left div.top {
+  margin-bottom: 20px;
+}
+#about section.wrapper section.edu-exp div.left div.top h4 {
+  font-size: 2.5rem;
+}
+#about section.wrapper section.edu-exp div.left div.bottom {
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul {
+  display: flex;
+  flex-direction: column;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li {
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li:last-child {
+  margin-bottom: 0;
+}
+
+#about section.wrapper section.edu-exp div.left div.bottom ul li i {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  border: #2a60f6 2px solid;
+  position: absolute;
+  left: -4px;
+  top: 4%;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #747474;
+}
+#about
+  section.wrapper
+  section.edu-exp
+  div.left
+  div.bottom
+  ul
+  li:first-child::before {
+  background-color: #2a60f6;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li::after {
+  content: "";
+  padding: 121px 0;
+  border-left: 2px solid #d7d9e0;
+  position: absolute;
+  left: 5px;
+  top: 10%;
+  z-index: -1;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li:last-child::after {
+  padding: 96px 0;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li small {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #747474;
+  color: #fafafa;
+  border-radius: 30px;
+  border-radius: 100px 0px 200px 100px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 180px;
+  margin-bottom: 10px;
+  bottom: 80%;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li:first-child small {
+  background-color: #2a60f6;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li div.container {
+  background-color: #f4f5f8;
+  padding: 25px 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 88%;
+  display: inline-block;
+  margin-left: 40px;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li div.container h5 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+  text-align: start;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li div.container span {
+  color: #2a60f6;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: start;
+}
+#about section.wrapper section.edu-exp div.left div.bottom ul li div.container p {
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  text-align: start;
+}
+#about section.wrapper section.edu-exp div.right {
+  width: 48%;
+}
+#about section.wrapper section.edu-exp div.right div.top {
+  margin-bottom: 20px;
+}
+#about section.wrapper section.edu-exp div.right div.top h4 {
+  font-size: 2.5rem;
+}
+#about section.wrapper section.edu-exp div.right div.bottom {
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul {
+  display: flex;
+  flex-direction: column;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li {
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li:last-child {
+  margin-bottom: 0;
+}
+
+#about section.wrapper section.edu-exp div.right div.bottom ul li i {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  border: #2a60f6 2px solid;
+  position: absolute;
+  left: -4px;
+  top: 4%;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #747474;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li:first-child::before {
+  background-color: #2a60f6;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li::after {
+  content: "";
+  padding: 121px 0;
+  border-left: 2px solid #d7d9e0;
+  position: absolute;
+  left: 5px;
+  top: 10%;
+  z-index: -1;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li:last-child::after {
+  padding: 96px 0;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li small {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #747474;
+  color: #fafafa;
+  border-radius: 30px;
+  border-radius: 100px 0px 200px 100px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 180px;
+  margin-bottom: 10px;
+  bottom: 80%;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li:first-child small {
+  background-color: #2a60f6;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li div.container {
+  background-color: #f4f5f8;
+  padding: 25px 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 88%;
+  display: inline-block;
+  margin-left: 40px;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li div.container h5 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+  text-align: start;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li div.container span {
+  color: #2a60f6;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: start;
+}
+#about section.wrapper section.edu-exp div.right div.bottom ul li div.container p {
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  text-align: start;
+}
+#about section.wrapper section.service {
+  padding: 7% 0;
+}
+#about section.wrapper section.service div.top {
+  text-align: center;
+  padding: 0 0 7% 0;
+}
+#about section.wrapper section.service div.top small {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dfe7fd;
+  border-radius: 30px;
+  color: #2a60f6;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+#about section.wrapper section.service div.top h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+#about section.wrapper section.service div.top ul {
+  display: flex;
+  justify-content: space-between;
+}
+#about section.wrapper section.service div.top ul li {
+  width: 23%;
+}
+#about section.wrapper section.service div.top ul li div.container {
+}
+#about section.wrapper section.service div.top ul li div.container div.img-container {
+  display: block;
+  margin-bottom: 30px;
+  width: 100%;
+}
+#about section.wrapper section.service div.top ul li div.container div.img-container i {
+  display: inline-block;
+  font-size: 39px;
+  padding: 25px 30px;
+  border-radius: 50%;
+  background-color: #f4f5f8;}
+#about section.wrapper section.service div.top ul li div.container span {
+  display: inline-block;
+  color: blue;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+#about section.wrapper section.service div.top ul li div.container p {
+}
+#count {
+   
+}
+#count section.hello {
+  background-image: url(../images/bg_banner.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5);
+    ;
+}
+#count div.bottom {
+    padding: 8% 19%;
+    
+}   
+#count div.bottom ul {
+  display: flex;
+  justify-content: space-between;
+}
+#count div.bottom ul li {
+}
+#count div.bottom ul li div.count {
+  display: flex;
+  flex-direction: column;}
+#count div.bottom ul li div.count span {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+#count div.bottom ul li div.count small {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#portfolio {padding: 7% 0;}
+#portfolio section.wrapper { 
+
+}
+#portfolio section.wrapper section.work {
+  text-align: center;
+}
+#portfolio section.wrapper section.work div.top { 
+
+}
+#portfolio section.wrapper section.work div.top small {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #dfe7fd;
+  border-radius: 30px;
+  color: #2a60f6;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+#portfolio section.wrapper section.work div.top h3 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+#portfolio section.wrapper section.work div.top div.container {
+  width: 40%;
+  margin: auto;
+}
+#portfolio section.wrapper section.work div.top div.container ul {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+#portfolio section.wrapper section.work div.top div.container ul li {
+  margin-right: 14px;
+  margin-bottom: 10px;
+}
+#portfolio section.wrapper section.work div.top div.container ul li span { 
+  display: inline-block;
+  border: 2px solid #747474;
+  color: #747474;
+  border-radius: 30px;
+  padding: 5px 10px;
+  position: relative;
+
+}
+#portfolio section.wrapper section.work div.top div.container ul li span:hover {
+  background-color: #2a60f6;
+  color: #fff;
+  border: #fff 2px solid;
+}
+#portfolio section.wrapper section.work div.top div.container ul li span:hover:after {
+  display: inline-block;
+  border: 2px solid #2a60f6;
+  color: #747474;
+  border-radius: 30px;
+  content: '';
+  position: absolute;
+  width: 106%;
+  height: 119%;
+  left: -5%;
+  top: -15%;
+}
+#portfolio section.wrapper section.gallery { 
+  padding: 7% 0;
+}
+#portfolio section.wrapper section.gallery div.container { 
+  margin-bottom: 30px;
+}
+#portfolio section.wrapper section.gallery div.container ul { 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#portfolio section.wrapper section.gallery div.container ul li { 
+  width: 33%;
+  margin-bottom: 20px;
+}
+#portfolio section.wrapper section.gallery div.container ul li div.sec-container { 
+  overflow: hidden;
+  position: relative;
+}
+#portfolio section.wrapper section.gallery div.container ul li div.sec-container div.img-container { 
+  display: block;
+  width: 90%;
+  overflow: hidden;
+  border-radius: 7px;
+}
+#portfolio section.wrapper section.gallery div.container ul li div.sec-container div.img-container img { 
+  display: block;
+  width: 100%;
+}
+#portfolio section.wrapper section.gallery div.container ul li div.sec-container div.content-container { 
+  background-color: #323131;
+  padding: 15px 15px;
+  width: 90%;
+  position: absolute;
+  bottom: 0%;
+  border-bottom-left-radius: 7px ;
+  border-bottom-right-radius: 7px ;
+}
+#portfolio section.wrapper section.gallery div.container ul li div.sec-container div.content-container span { 
+  display: block;
+  color: #2a60f6;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+#portfolio section.wrapper section.gallery div.container ul li div.sec-container div.content-container small { 
+  display: inline-block;
+  color: #fff;
+}
+#portfolio section.wrapper section.gallery div.button { 
+  text-align: center;
+}
+#portfolio section.wrapper section.gallery div.button button { 
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #2a60f6;
+  color: #fff;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+#portfolio section.wrapper section.rewive {
+  padding: 7% 0;
+}
+#portfolio section.wrapper section.rewive div.top {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 7% 0;
+}
+#portfolio section.wrapper section.rewive div.top h3 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  width: 80%;
+  /* margin: 0 auto; */
+}
+#portfolio section.wrapper section.rewive div.top div.container-top {
+  display: flex;
+  justify-content: center;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.left {
+    width: 46%;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.left div.img-container {
+  display: block;
+  width: 80%;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.left div.img-container img { 
+  display: block;
+  width: 100%;
+}
+
+#portfolio section.wrapper section.rewive div.top div.container-top div.right {
+  width: 48%;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.right p {
+  font-size: 1.5rem;
+  text-align: start;
+  margin-bottom: 20px;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top  div.right div.container {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.right div.container div.small-container  {
+ display: block;
+ overflow: hidden;
+ width: 16%;
+ margin-right: 7px;
+ border-radius: 50%;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.right div.container div.small-container img  {
+  width: 100%;
+  display: block;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.right div.container div.content  {
+  padding-top: 6px;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.right div.container div.content small{
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+#portfolio section.wrapper section.rewive div.top div.container-top div.right div.container div.content blockquote{
+  font-weight: 100;
+  font-size: 1rem;
+}
+#portfolio section.wrapper section.rewive div.top div.container-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#portfolio section.wrapper section.rewive div.top div.container-bottom ul {
+  display: flex;
+}
+#portfolio section.wrapper section.rewive div.top div.container-bottom ul li {
+  margin-left: 20px;
+}
+#portfolio section.wrapper section.rewive div.top div.container-bottom ul li a {
+  width: 10px;
+  height: 10px;
+  background-color: #dadada;
+  display: inline-block;
+  border-radius: 50%;
+}
+#portfolio section.wrapper section.rewive div.top div.container-bottom ul li a:hover {
+  background-color: #2a60f6;
+}
+#gallery-1 div.gallery { 
+  padding: 7% 0;
+  background-color: #171925;
+}
+#gallery-1 div.gallery div.container {
+  padding: 0% 14%;
+}
+#gallery-1 div.gallery div.container ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#gallery-1 div.gallery div.container ul li {
+  width: 22.22%;
+  border: 1px solid #292e3b;
+}
+#gallery-1 div.gallery div.container ul li:nth-child(4n) {
+  border-right: 0;
+}
+#gallery-1 div.gallery div.container ul li.one {
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+#gallery-1 div.gallery div.container ul li.two {
+  border-bottom: 0;
+  border-left: 0;
+}
+#gallery-1 div.gallery div.container ul li div.img-container {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  filter: grayscale(1);
+  padding: 30px 30px;
+}
+#gallery-1 div.gallery div.container ul li div.img-container img {
+  width: 100%;
+  display: block;
+}
+#blog { 
+  padding: 0 7%;
+  padding-top: 7%;
+}
+#blog section.wrapper { 
+
+}
+#blog section.wrapper div.top { 
+  text-align: center;
+}
+#blog section.wrapper div.top small { 
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #dfe7fd;
+  border-radius: 30px;
+  color: #2a60f6;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+#blog section.wrapper div.top h3 { 
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+#blog section.wrapper div.middle { 
+
+}
+#blog section.wrapper div.middle div.container { 
+  margin-bottom: 30px;
+} 
+#blog section.wrapper div.middle div.container ul { 
+  display: flex;
+  justify-content: space-between;
+}
+#blog section.wrapper div.middle div.container ul li { 
+  width: 31%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#blog section.wrapper div.middle div.container ul li div.gallery-container { 
+}
+#blog section.wrapper div.middle div.container ul li div.gallery-container div.img-container {
+    display: block;
+    width: 100%;
+}
+#blog section.wrapper div.middle div.container ul li div.gallery-container div.img-container img {
+  display: block;
+  width: 100%;
+}
+#blog section.wrapper div.middle div.container ul li div.gallery-container div.content-container { 
+  background-color: #fff;
+  padding: 15px 15px;
+  width: 93%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+#blog section.wrapper div.middle div.container ul li div.gallery-container div.content-container span { 
+  display: block;
+  color: #2a60f6;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+#blog section.wrapper div.middle div.container ul li div.gallery-container div.content-container small { 
+    color: #000;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+#blog section.wrapper div.middle div.container ul li div.gallery-container div.content-container blockquote { 
+
+}
+#blog section.wrapper div.bottom { 
+  text-align: center;
+}
+#blog section.wrapper div.bottom button { 
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #2a60f6;
+  color: #fff;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+#contact { 
+
+  padding: 7% 0;
+}
+#contact div.top { 
+  text-align: center;
+}
+#contact div.top small { 
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #dfe7fd;
+  border-radius: 30px;
+  color: #2a60f6;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+#contact div.top h3 { 
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 70px;
+}
+#contact div.bottom {
+  display: flex;
+  justify-content: center;
+}
+#contact div.bottom div.left {
+  width: 54%;
+}
+#contact div.bottom div.left div.map-container {
+  width: 100%;
+}
+#contact div.bottom div.left div.map-container iframe {
+  display: block;
+  width: 100%;
+}
+#contact div.bottom div.right { 
+  padding: 3% 5%;
+  width: 32%;
+}
+#contact div.bottom div.right form {
+  text-align: center;
+}
+#contact div.bottom div.right form input {
+  width: 100%;
+  font-size: 1.5rem;
+  border: 1px solid #c2c6ce;
+  border-radius: 5px;
+  padding: 2%;
+  margin-bottom: 27px;
+}
+#contact div.bottom div.right form input.two {
+  width: 49%;
+}
+#contact div.bottom div.right form input.submit {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #2a60f6;
+  color: #fff;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 50%;
+  margin-bottom: 0;
+}
+#contact div.bottom div.right form textarea { 
+  border: 1px solid #c2c6ce;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 27px;
+  padding: 2%;
+}
+footer { 
+  padding: 7% 0;
+  background-color: #171925;
+  color: #fff;
+}
+footer section.wrapper { 
+
+}
+footer section.wrapper div.top { 
+  text-align: center;
+}
+footer section.wrapper div.top h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: monospace;
+  margin-bottom: 20px;
+  color: #6a6d77;
+}
+footer section.wrapper div.middle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+footer section.wrapper div.middle div.left {
+  width: 34%;
+}
+footer section.wrapper div.middle div.left h4 {
+  font-size: 1.3rem;
+  color: #6a6d77;
+  margin-bottom: 20px;
+}
+footer section.wrapper div.middle div.left p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+footer section.wrapper div.middle div.right {
+ width: 60%;
+}
+footer section.wrapper div.middle div.right ul {
+  display: flex;
+  justify-content: center;
+}
+footer section.wrapper div.middle div.right ul li {
+  width: 52%;
+}
+footer section.wrapper div.middle div.right ul li div.container { 
+
+}
+footer section.wrapper div.middle div.right ul li div.container h4 {
+  margin-bottom: 20px;
+  color: #6a6d77;
+  font-size: 1.3rem;
+}
+footer section.wrapper div.middle div.right ul li div.container ul {
+  display: flex;
+  flex-direction: column;
+}
+footer section.wrapper div.middle div.right ul li div.container ul li {
+  margin-bottom: 15px;
+}
+footer section.wrapper div.middle div.right ul li div.container ul li:last-child {
+  margin-bottom: 0;
+}
+footer section.wrapper div.middle div.right ul li div.container ul li a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+footer section.wrapper div.bottom {
+  text-align: center;
+}
+footer section.wrapper div.bottom h4 {
+  font-size: 1.7rem;
+  color: #9fa2ab;
+  margin-bottom: 30px;
+}
+footer section.wrapper div.bottom form {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+footer section.wrapper div.bottom form input { 
+  width: 65%;
+  font-size: 1.5rem;
+  border: 1px solid #c2c6ce;
+  border-radius: 5px;
+  padding: 1%;
+  margin-bottom: 27px;
+}
+footer section.wrapper div.bottom form input.subscribe { 
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #2a60f6;
+  color: #fff;
+  border-radius: 7px;
+  border: 2px solid #fff;
+  box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 30%;
+}
+footer section.wrapper div.bottom p { 
+  color: #8e919a;
+}
+footer section.wrapper div.bottom p b { 
+  color: #116ee3;
+}
+footer section.wrapper div.bottom span.arrow { 
+  
+} 
+@media all and (max-width: 1280px)  {
+  footer section.wrapper div.middle div.right ul li div.container ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  }
+  footer section.wrapper div.middle div.left p {
+    color: #fff;
+    font-size: 1.2rem;
+  } 
+  #contact div.bottom div.right form textarea {
+    font-size: 1.2rem;
+  }
+  #contact div.bottom div.right form input {
+    font-size: 1.2rem ;
+  }
+}
+@media all and (max-width: 1080px) {
+  footer section.wrapper div.middle div.right ul li div.container ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+  } 
+  #about section.wrapper section.edu-exp div.left div.bottom ul li::after {
+    content: "";
+    padding: 133px 0;
+    border-left: 2px solid #d7d9e0;
+    position: absolute;
+    left: 5px;
+    top: 10%;
+    z-index: -1;
+  }
+  #about section.wrapper section.edu-exp div.left div.bottom ul li i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: #2a60f6 2px solid;
+    position: absolute;
+    left: -4px;
+    top: 3.5%;
+  }
+  #about section.wrapper section.edu-exp div.right div.bottom ul li i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: #2a60f6 2px solid;
+    position: absolute;
+    left: -4px;
+    top: 3.5%;
+  } 
+  #about section.wrapper section.edu-exp div.right div.bottom ul li::after {
+    content: "";
+    padding: 133px 0;
+    border-left: 2px solid #d7d9e0;
+    position: absolute;
+    left: 5px;
+    top: 10%;
+    z-index: -1;
+  }
+  #about section.wrapper section.edu-exp div.left div.bottom ul li:last-child::after {
+    padding: 107px 0;
+  }
+  #about section.wrapper section.edu-exp div.right div.bottom ul li:last-child::after {
+    padding: 107px 0;
+  }
+  #contact div.bottom div.right {
+    padding: 3% 2%;
+    width: 32%;
+  }
+  footer section.wrapper div.middle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    flex-direction: column;
+  }
+  footer section.wrapper div.middle div.left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  footer section.wrapper div.middle div.left p {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  footer section.wrapper div.middle div.right {
+    width: 100%;
+  }
+  footer section.wrapper div.middle div.right ul li div.container ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer section.wrapper div.middle div.right ul li {
+    width: 55%;
+  }
+  footer section.wrapper div.middle div.right ul li div.container ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+  }
+  footer section.wrapper div.bottom form input {
+    width: 65%;
+    font-size: 1.2rem;
+    border: 1px solid #c2c6ce;
+    border-radius: 5px;
+    padding: 2.7%;
+    margin-bottom: 27px;
+  }
+  
+}
+@media all and (max-width: 980px)  {
+  #about section.wrapper section.edu-exp div.left div.bottom ul li::after {
+    content: "";
+    padding: 142px 0;
+    border-left: 2px solid #d7d9e0;
+    position: absolute;
+    left: 5px;
+    top: 10%;
+    z-index: -1;
+  }
+  #about section.wrapper section.edu-exp div.right div.bottom ul li::after {
+    content: "";
+    padding: 142px 0;
+    border-left: 2px solid #d7d9e0;
+    position: absolute;
+    left: 5px;
+    top: 10%;
+    z-index: -1;
+  }
+  #portfolio section.wrapper section.work div.top div.container {
+    width: 58%;
+    margin: auto;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.right div.container div.small-container {
+    display: block;
+    overflow: hidden;
+    width: 22%;
+    margin-right: 7px;
+    border-radius: 50%;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.right p {
+    font-size: 1.2rem;
+    text-align: start;
+    margin-bottom: 6px;
+  }
+  #home section.spotlight div.container h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  #home section.spotlight div.container small {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #363d56;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 30px;
+    color: #2a60f6;
+  }
+}
+@media all and (max-width: 768px)  {
+  #home header nav {
+    display: none;
+  }
+  #home header div.right a.button {
+    border-radius: 50%;
+    background-color: #2a60f6;
+    padding: 16px 16px;
+  }
+  #about section.wrapper section.intro {
+    padding: 8% 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #about section.wrapper section.intro div.left {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #about section.wrapper section.intro div.left div.img-container {
+    display: block;
+    width: 90%;
+    position: relative;
+  }
+
+  #about section.wrapper section.intro div.right {
+    width: 100%;
+  } 
+  #about section.wrapper section.intro div.left div.img-container {
+    width: 25%;
+  }
+
+  #about section.wrapper section.skills div.bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #about section.wrapper section.skills div.bottom div.left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #about section.wrapper section.skills div.bottom div.right {
+    width: 100%;
+  }
+  #about section.wrapper section.edu-exp {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
+    flex-direction: column;
+  }
+  #about section.wrapper section.edu-exp div.left {
+    width: 100%;
+  }
+  #about section.wrapper section.edu-exp div.right {
+    width: 100%;
+  }
+  #about section.wrapper section.service div.top ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #about section.wrapper section.service div.top ul li {
+    width: 48%;
+    margin-bottom: 35px;
+  }
+  #about section.wrapper section.service div.top ul li:nth-child(3) {
+    margin-bottom: 0;
+  }
+  #about section.wrapper section.service div.top ul li:nth-child(4) {
+    margin-bottom: 0;
+  }
+  #count section.hello {
+    background-image: none;
+  }
+  #count div.bottom ul {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+  #count div.bottom ul li {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  #count div.bottom ul li:nth-child(3){
+    margin-bottom: 0;
+  }
+  #count div.bottom ul li:nth-child(4){
+    margin-bottom: 0;
+  }
+  #count div.bottom {
+    padding: 0% 12%;
+    text-align: center;
+  }
+  #portfolio section.wrapper section.work div.top div.container {
+    width: 68%;
+    margin: auto;
+  }
+  #portfolio section.wrapper section.gallery div.container ul li {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  #portfolio section.wrapper section.gallery {
+    padding: 5% 0;
+  }
+  #portfolio section.wrapper section.rewive div.top {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0;
+  }
+  #portfolio section.wrapper section.rewive div.top h3 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    width: 91%;
+    margin: 0 auto 30px;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.left div.img-container {
+    display: block;
+    width: 100%;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.left {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.right {
+    width: 60%;
+    text-align: start;
+  }
+  #gallery-1 div.gallery div.container ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #gallery-1 div.gallery div.container ul li {
+    width: 40%;
+    border: 0;
+  }
+  #gallery-1 div.gallery div.container {
+    padding: 0% 4%;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.right p {
+    font-size: 1.2rem;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  #blog section.wrapper div.middle div.container ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #blog section.wrapper div.middle div.container ul li {
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+  }
+  #blog section.wrapper div.bottom button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2a60f6;
+    color: #fff;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  #contact {
+    padding: 5% 0;
+  }
+  #contact div.bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #contact div.bottom div.left {
+    width: 100%;
+  }
+
+  #contact div.bottom div.right {
+    width: 100%;
+    padding: 7% 12%;
+  }
+  #contact div.bottom div.left {
+    width: 100%;
+    padding: 0 5%;
+  }
+  footer section.wrapper div.middle div.right ul li {
+    width: 63%;
+  }
+  footer section.wrapper div.bottom form {
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+  }
+  footer section.wrapper div.bottom p {
+    color: #8e919a;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+}
+@media all and (max-width: 640px)  {
+  #home section.spotlight {
+    padding: 25% 0;
+    padding-bottom: 15%;
+  }
+  #about section.wrapper section.intro div.left div.img-container {
+    width: 30%;
+  }
+  #about section.wrapper section.edu-exp div.left div.bottom ul li i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: #2a60f6 2px solid;
+    position: absolute;
+    left: -4px;
+    top: 8.9px;
+    }
+  #portfolio section.wrapper section.work div.top div.container {
+    width: 91%;
+    margin: auto;
+  }
+  #portfolio section.wrapper section.gallery div.container ul li {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #portfolio section.wrapper section.gallery div.container ul li div.sec-container div.img-container {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 7px;
+  }
+  #portfolio section.wrapper section.gallery div.container ul li div.sec-container div.content-container {
+    background-color: #323131;
+    padding: 15px 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  #portfolio section.wrapper section.gallery div.container {
+    margin-bottom: 10px;
+  }
+  #portfolio section.wrapper section.gallery {
+    padding: 0;
+  }
+  #portfolio section.wrapper section.rewive {
+    padding: 5% 0;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.left {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.right {
+    width: 80%;
+    text-align: start;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.right div.container div.small-container {
+    display: block;
+    overflow: hidden;
+    width: 22%;
+    margin-right: 7px;
+    border-radius: 50%;
+  }
+  #gallery-1 div.gallery div.container ul li {
+    width: 100%;
+    border: 0;
+  }
+
+element.style {
+  user-select: auto;
+}
+#gallery-1 div.gallery div.container ul li div.img-container {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  filter: grayscale(1);
+  padding: 20px 100px;
+  }
+  #blog {
+    padding: 7% 1%;
+  }
+  #contact div.bottom div.right form textarea { 
+    margin-bottom: 15px; 
+  }
+  #contact div.bottom div.right {
+    width: 100%;
+    padding: 7% 7%;
+  }
+  footer section.wrapper div.middle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    flex-direction: column;
+}
+  footer section.wrapper div.middle div.right ul li {
+    width: 67%;
+  }
+  footer section.wrapper div.bottom form {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+  }
+  #gallery-1 div.gallery div.container ul li div.img-container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    filter: grayscale(1);
+    padding: 20px 100px;
+  }
+  footer section.wrapper div.middle div.right ul li div.container ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+  }
+}
+@media all and (max-width: 480px)  {
+  footer section.wrapper div.middle div.right ul li div.container ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+  }
+  #home header div.left {
+  width: 30%;
+  }
+  #home section.spotlight div.container h1 {
+    font-size: 2.9rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  #home section.spotlight div.container small{
+    font-size: 15px;
+  }
+  #about section.wrapper section.intro div.left div.img-container {
+    width: 45%;
+  }
+  #about section.wrapper section.intro div.right h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  #about section.wrapper section.intro div.right p {
+    font-size: 20px;
+    color: #777f87;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin-bottom: 12px;
+  }
+  #about section.wrapper section.skills div.top h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  #about section.wrapper section.edu-exp div.right div.bottom ul li i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: #2a60f6 2px solid;
+    position: absolute;
+    left: -4px;
+    top: 3.4%;
+  }
+  #about section.wrapper section.edu-exp div.left div.bottom ul li::after {
+    content: "";
+    padding: 265px 0;
+    border-left: 2px solid #d7d9e0;
+    position: absolute;
+    left: 5px;
+    top: 10%;
+    z-index: -1;
+  }
+  #about section.wrapper section.edu-exp div.right div.bottom ul li::after {
+    content: "";
+    padding: 265px 0;
+    border-left: 2px solid #d7d9e0;
+    position: absolute;
+    left: 5px;
+    top: 10%;
+    z-index: -1;
+  }
+  #portfolio section.wrapper section.work div.top div.container {
+    width: 100%;
+    margin: auto;
+  }
+  #portfolio section.wrapper section.work div.top div.container {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #portfolio section.wrapper section.gallery div.container {
+    margin-bottom: 0px;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.left {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #portfolio section.wrapper section.rewive div.top div.container-top div.right {
+    width: 90%;
+    text-align: start;
+  } 
+  #portfolio section.wrapper section.rewive div.top div.container-top div.right div.container div.small-container {
+    display: block;
+    overflow: hidden;
+    width: 25%;
+    margin-right: 7px;
+    border-radius: 50%;
+  }
+  #portfolio {
+    padding: 5% 0;
+  } 
+  footer section.wrapper div.bottom form input {
+    width: 66%;
+    font-size: 1rem;
+    border: 1px solid #c2c6ce;
+    border-radius: 5px;
+    padding: 2.7%;
+    height: 40px;
+    margin-bottom: 27px;
+  }
+  footer section.wrapper div.bottom form input.subscribe {
+    display: inline-block;
+    padding: 8px 19px;
+    background-color: #2a60f6;
+    color: #fff;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 30%;
+  }
+  #gallery-1 div.gallery div.container ul li div.img-container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    filter: grayscale(1);
+    padding: 20px 90px;
+  }
+  #home header {
+    width: 100%;
+    height: 65px;
+    background-color: #5e5c5c;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 2.5%;
+  }
+}
+@media all and (max-width: 360px)  {
+  #home section.spotlight div.container h3 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  #about section.wrapper section.intro div.left div.img-container {
+    width: 50%;
+  }
+  #about section.wrapper section.intro div.right p {
+    font-size: 17px;
+    color: #777f87;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin-bottom: 12px;
+  }
+  #about section.wrapper section.skills div.top h3 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  #about section.wrapper section.edu-exp {
+    padding: 0;
+  }
+  #about section.wrapper section.edu-exp {
+    padding: 0;
+  }
+  #about section.wrapper section.service {
+    padding: 0;
+  }
+  #about section.wrapper section.service div.top ul li {
+    padding: 0 7%;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  #count div.bottom ul li {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  #portfolio section.wrapper section.work div.top div.container ul li {
+    margin-right: 18px;
+    margin-bottom: 10px;
+  }
+  #portfolio {
+    padding: 0;
+  }
+  #portfolio section.wrapper section.rewive div.top h3 {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+  #blog section.wrapper div.top h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  #contact div.top h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+  footer section.wrapper div.middle div.right ul {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  footer section.wrapper div.middle div.right ul li div.container ul {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  footer section.wrapper div.middle div.right ul li div.container ul li:last-child {
+    margin-bottom: 30px;
+  }
+  footer section.wrapper div.middle div.right ul li {
+    width: 80%;
+  }
+  footer section.wrapper div.middle div.right ul li div.container h4 {
+    margin-bottom: 10px;
+    color: #6a6d77;
+    font-size: 1rem;
+  }
+  footer section.wrapper div.bottom h4 {
+    font-size: 1.5rem;
+    color: #9fa2ab;
+    margin-bottom: 20px;
+  }
+  footer section.wrapper div.bottom form input {
+    width: 66%;
+    font-size: 1rem;
+    border: 1px solid #c2c6ce;
+    border-radius: 5px;
+    padding: 2.7%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+  footer section.wrapper div.bottom form input.subscribe {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #2a60f6;
+    color: #fff;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 30%;
+  }
+  footer section.wrapper div.top h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: monospace;
+    margin-bottom: 20px;
+    color: #6a6d77;
+  }
+  footer section.wrapper div.middle div.left p {
+    font-size: 1.2rem;
+  }
+  #portfolio section.wrapper section.work div.top div.container ul li {
+    margin-right: 9px;
+    margin-bottom: 10px;
+  }
+  #count div.bottom {
+    padding: 7% 12%;
+    text-align: center;
+  }
+}
